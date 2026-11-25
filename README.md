@@ -1,15 +1,15 @@
-# 🤖 LLM Hands-On with PyTorch & Hugging Face
+# LLM Hands-On with PyTorch & Hugging Face
 
 Latihan (Task 8) tentang cara **memuat, menjalankan, menyesuaikan, dan menghubungkan Large Language Models (LLM)** dengan **PyTorch** dan pustaka **Hugging Face `transformers`**. Seluruh eksperimen ada dalam satu notebook yang sudah dilengkapi kode, output hasil run, penjelasan tiap bagian, review, dan kesimpulan (dalam Bahasa Indonesia).
 
-> 📓 Notebook: [`notebooks/08_large_language_models.ipynb`](notebooks/08_large_language_models.ipynb)
+> Notebook: [`notebooks/08_large_language_models.ipynb`](notebooks/08_large_language_models.ipynb)
 
 <!-- Ganti USERNAME dan NAMA-REPO setelah repo dibuat -->
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/USERNAME/NAMA-REPO/blob/main/notebooks/08_large_language_models.ipynb)
 
 ---
 
-## 📚 Isi Notebook
+## Isi Notebook
 
 | Part | Topik | Model | Konsep utama |
 |---|---|---|---|
@@ -24,7 +24,7 @@ Latihan (Task 8) tentang cara **memuat, menjalankan, menyesuaikan, dan menghubun
 
 ---
 
-## 📊 Ringkasan Hasil
+## Ringkasan Hasil
 
 Dijalankan di Google Colab (GPU NVIDIA T4, `float16`), PyTorch 2.14.1, Transformers 5.22.1.
 
@@ -43,7 +43,7 @@ Analisis lengkap dan kesimpulan ada di akhir notebook. Karena sampling bersifat 
 
 ---
 
-## 🚀 Cara Menjalankan
+## Cara Menjalankan
 
 ### Opsi A — Google Colab (paling mudah)
 1. Klik badge **Open In Colab** di atas (setelah `USERNAME/NAMA-REPO` diganti).
@@ -74,7 +74,7 @@ jupyter lab notebooks/08_large_language_models.ipynb
 
 ---
 
-## 🔑 Catatan Hugging Face Token (opsional)
+## Catatan Hugging Face Token (opsional)
 
 Semua model yang dipakai bersifat **terbuka**, jadi **tidak wajib login**. Peringatan *"unauthenticated requests to the HF Hub"* aman diabaikan. Token hanya berguna agar unduhan lebih cepat atau bila ingin memakai model *gated* seperti `meta-llama/Llama-3.2-1B-Instruct`.
 
@@ -82,7 +82,7 @@ Simpan token di variabel lingkungan atau Colab *Secrets* dengan nama `HF_TOKEN`.
 
 ---
 
-## 📁 Struktur Repo
+## Struktur Repo
 
 ```
 .
@@ -95,7 +95,7 @@ Simpan token di variabel lingkungan atau Colab *Secrets* dengan nama `HF_TOKEN`.
 
 ---
 
-## ⚠️ Keterbatasan
+## Keterbatasan
 
 - Model yang dipakai kecil (GPT-2 124M, Qwen 1,5B), jadi halusinasi dan jawaban ragu-ragu masih terjadi.
 - Jumlah contoh uji sangat sedikit (mis. 3 ulasan, 2 pertanyaan RAG); hasilnya bersifat **ilustratif**, bukan evaluasi kuantitatif.
@@ -104,7 +104,7 @@ Simpan token di variabel lingkungan atau Colab *Secrets* dengan nama `HF_TOKEN`.
 
 ---
 
-## 🙏 Kredit
+## Kredit
 
 Soal dan kerangka latihan berasal dari materi kuliah **GEN2026 – Task 8: Large Language Models** (© 2026 ADF). Repo ini berisi pengerjaan dan dokumentasinya untuk keperluan belajar.
 
