@@ -1,0 +1,16 @@
+# Dependensi untuk notebooks/08_large_language_models.ipynb
+# Diuji dengan: Python 3.x, torch 2.14.1 (CUDA 13), transformers 5.22.1, GPU NVIDIA T4 (Google Colab)
+#
+# Catatan: untuk GPU NVIDIA, pasang PyTorch yang sesuai versi CUDA Anda lebih dulu
+# lewat https://pytorch.org/get-started/locally/ , baru jalankan `pip install -r requirements.txt`.
+
+torch>=2.0
+transformers>=5.0
+accelerate>=0.30
+peft>=0.10
+sentence-transformers>=3.0
+torchao>=0.16.0   # dibutuhkan peft pada versi torch/transformers di atas
+
+# Untuk menjalankan notebook secara lokal
+jupyterlab>=4.0
+ipywidgets>=8.0   # progress bar unduhan model
